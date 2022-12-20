@@ -1,7 +1,7 @@
 /* global browser */
 
 async function onTabCreated(tab){
-	if(!tab.active && tab.openerTabId){
+	if(!tab.active){
 		setTimeout( function() {
 			browser.tabs.executeScript(tab.id, {
 				runAt: 'document_idle', 
