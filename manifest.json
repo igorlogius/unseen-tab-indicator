@@ -12,8 +12,9 @@
   "manifest_version": 2,
   "name": "Unseen Tab Indicator",
   "permissions": [
+    "menus",
     "<all_urls>",
     "tabs"
   ],
-  "version": "1.0.3"
+  "version": "1.1.3"
 }
